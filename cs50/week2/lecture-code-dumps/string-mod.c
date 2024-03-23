@@ -10,6 +10,9 @@
  * To calculate size of string, strlen() fn is used alternatively the following could be use:
  * int length_of_string = (sizeof(array_of_string) / sizeof(array_of_string[0]))
  *
+ *
+ * Super comments #if | #else | #endif have been used to select a block of code (for loop and while loop here) by changing value of #if <value> to 0 (chooses for loop) or 1 (choose while loop)
+ *
  * */
 
 
